@@ -37,7 +37,7 @@ from sys import getsizeof;
 integer_variable: int = 1
 float_variable: float = 1.5
 string_variable: str = ''
-string_variable_with_content = 'a'
+string_variable_with_content: str = 'a'
 
 print("Tamanho do inteiro: ", getsizeof(integer_variable))
 print("Tamanho do float (ponto flutuante)", getsizeof(float_variable))
@@ -48,27 +48,35 @@ Por enquanto vamos ignorar a linha 1 com o `from ... import` e focar no resto do
 
 Neste código são criadas várias variaveis, cada uma com um **tipo de dado** diferente e com um valor distinto. Vamos destrinchar ele.
 
-> `integer_variable: int = 1`
+```python
+integer_variable: int = 1
+```
 
 Nesta linha declaramos um tipo *inteiro* chamado "integer variable" que recebe o valor 1.
 
 
-> `float_variable: float = 1.5`
+```python
+float_variable: float = 1.5
+```
 
 Já nesta outra linha, declaramos um tipo *decimal* ou *ponto flutuante* chamado "float_variable", que recebe o valor 1,5
 
  > <span style="color:yellow; font-weight: bolder"> &#9888; Importante: </span> Como grande parte das linguagens de programação são em inglês, o separador de casas decimais é o ponto ( . ), portanto devemos sempre usar ele para escrever numeros de ponto flutuante.
 
 
-> `string_variable: str = ''`
+```python
+string_variable: str = ''
+```
 
 Nessa linha declaramos um *texto* ou *string* vazio, sem nenhum conteúdo.
 
-> `string_variable_with_content = 'a'`
+```python
+string_variable_with_content: str = 'a'
+```
 
 E por fim, nesta linha declaramos uma outra *string* com um valor dentro, no caso o caractére "a"
 
-> ```python
+ ```python
 print("Tamanho do inteiro: ", getsizeof(integer_variable))
 print("Tamanho do float (ponto flutuante)", getsizeof(float_variable))
 print("Tamanho da string vazia (texto vazio)", getsizeof(string_variable))
@@ -79,4 +87,3 @@ Nestas linhas nós mostramos o tamanho dessas variáveis com o `getsizeof`.
 
 ### Considerações importantes
 - Em Python as variáveis não precisam ter seu tipo informado, já que o interpretador *infere* os seus tipos automaticamente. Porém é uma **boa prática** inserir os tipos.
-
