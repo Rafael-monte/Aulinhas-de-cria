@@ -20,8 +20,8 @@ Os tipos básicos ou *primitivos* de váriaveis em Python são:
 
 | **Tipo** | **Valor que é armazenado** | **tamanho em *disco*** |
 | -------- | -------------------------- | ---------------------- |
-| int      | valores inteiros ( + e - ) | 2 *bytes*              |
-| float    | valores decimais ( + e - ) | 4 *bytes*              |
+| int      | valores inteiros ( + e - ) | 28 *bytes*              |
+| float    | valores decimais ( + e - ) | 24 *bytes*              |
 | str      | valores de texto           | mínimo de 49 *bytes*    |
 
 > <span style="color:dodgerblue; font-weight: bolder"> 	&#x2139;&#xFE0F; Nota: </span> Também é possivel ver o quão grande é o tamanho desses tipos [neste site.](https://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609)
